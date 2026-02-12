@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Counter App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div
+      class="wrapper w-[100vw] h-[100vh] flex justify-center items-center bg-[#344151] gap-10"
+    >
+      <div class="card h-[400px] w-[450px] bg-white rounded-xl shadow-lg p-8">
+        <h2 class="font-bold text-3xl mt-5 ml-6 text-[#CD5C5C]">
+          Welcome to Counter App
+        </h2>
+        <p class="mt-5 text-[#0398d4] font-bold text-[20px] ml-5">
+          Counter app increases, decreases, and resets numbers easily.
+        </p>
+        <div
+          class="flex justify-evenly items-center border-4 border-blue-300 shadow-2xl rounded-2xl w-[300px] h-[80px] m-auto mt-10 hover:cursor-pointer"
+        >
+          <button class="plus">
+            <i class="fa-solid fa-plus text-black"></i>
+          </button>
+          <div class="text-2xl value">0</div>
+          <button class="minus ">
+            <i class="fa-solid fa-minus"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
