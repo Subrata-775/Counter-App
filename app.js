@@ -12,3 +12,9 @@ minusIcon.addEventListener("click", () => {
     currentvalue--;
     currvalue.textContent = currentvalue;
 });
+
+function reset(){
+    let currentvalue = parseInt(currvalue.textContent);
+    currentvalue=0;
+    currvalue.textContent=currentvalue;
+}
